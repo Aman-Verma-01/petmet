@@ -1,0 +1,44 @@
+Pet Adoption System
+
+Overview
+The Pet Adoption System is a web application designed to facilitate the adoption process for dogs and cats. It allows users to browse available pets, submit adoption applications, and manage their adoption history. The system also provides administrators with tools to manage pet listings, review adoption applications, and oversee user activity.
+
+Features
+
+Pet Listings: Display a list of available dogs and cats for adoption with detailed profiles.
+Adoption Applications: Enable users to submit adoption applications for specific pets.
+Admin Dashboard: Provide administrators with tools to manage review adoption applications
+Responsive Design: Ensure the application is optimized for various devices and screen sizes.
+
+
+Tech Stack
+Frontend: React.js for building the user interface.
+Backend: Node.js with Express.js for building the server-side application.
+Database: MongoDB for storing pet listings, user data, and adoption applications.
+Other Libraries: Mongoose for MongoDB object modeling
+
+API Endpoints
+
+
+Pet Management:
+
+GET /api/pets: Fetch a list of all pets.
+POST /api/pets: Add a new pet.
+GET /api/pets/:id: Fetch a specific pet by ID.
+PUT /api/pets/:id: Update a specific pet by ID.
+DELETE /api/pets/:id: Delete a specific pet by ID.
+
+Adoption Applications:
+
+GET /api/applications: Fetch a list of all adoption applications.
+POST /api/applications: Submit a new adoption application.
+GET /api/applications/:id: Fetch a specific adoption application by ID.
+PUT /api/applications/:id: Update the status of a specific adoption application by ID.
+
+Category Management:
+
+GET /api/category/all: Fetch a list of all categories.
+POST /api/category/create: Add a new category.
+
+
+
